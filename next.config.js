@@ -19,9 +19,6 @@ const withPWA = WithPWA({
 // @ts-ignore
 const config = withPWA({
   reactStrictMode: true,
-  output: 'export',  // This enables static export
-  basePath: '/deploytest',  // Replace with your GitHub repo name
-  assetPrefix: '/deploytest/',  // Replace with your GitHub repo name
 
   /**
    * If you are using `appDir` then you must comment the below `i18n` config out.
